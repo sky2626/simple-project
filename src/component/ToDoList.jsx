@@ -44,9 +44,9 @@ export default function ToDoList(){
             <h1 className="text-slate-600 text-center font-semibold text-lg p-6">To-Do-List</h1>
             <div className="flex md:flex-row gap-2 p-10 justify-center">
                 <input 
-                className="bg-slate-800 h-16 w-96 text-white rounded-lg"
+                className="bg-slate-800 p-4 h-16 w-96 text-white rounded-lg"
                 type="text" 
-                placeholder="  Enter task please..."
+                placeholder="Enter task please..."
                 value={newTask}
                 onChange={hundleInputChange} />
                 <button 
